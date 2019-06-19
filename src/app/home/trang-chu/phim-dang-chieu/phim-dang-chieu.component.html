@@ -1,0 +1,19 @@
+<div class="owl-carousel  owl-theme ">
+
+    <!-- <ng-container *ngFor="let phim of danhSachPhimDangChieu | slice:1:12">
+        <app-item-phim-dang-chieu [phimDangChieu]="phim"></app-item-phim-dang-chieu>
+    </ng-container> -->
+
+
+    
+        <div class=" col-md-3" *ngFor="let phim of danhSachPhimDangChieu | slice:1:12 ; let i = index;">
+            <app-item-phim-dang-chieu [phimDangChieu]="phim"></app-item-phim-dang-chieu>
+            
+        </div>
+ 
+
+
+
+
+
+</div>

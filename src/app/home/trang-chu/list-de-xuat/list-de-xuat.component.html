@@ -1,0 +1,16 @@
+<div class="container ">
+  <div class="row ">
+
+    <div class="col-md-3" *ngFor="let item of listDeXuat | slice:4:8">
+      <app-item-de-xuat [phim]="item"></app-item-de-xuat>
+    </div>
+
+  </div>
+  <!-- <div class="row ">
+
+    <div class="col-md-3" *ngFor="let item of listDeXuat | slice:2:6 ">
+      <app-item-de-xuat [phim]="item"></app-item-de-xuat>
+    </div>
+
+  </div> -->
+</div>
